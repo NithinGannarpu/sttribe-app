@@ -5,10 +5,10 @@
   }
   
   .event-card {
-    background: #f9fafc;
+    background:#f9fafc;
     border-radius: 8px;
     padding: 40px;
-    max-height: 600px;
+    min-height: 350px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     height: 100%;
     display: flex;
@@ -16,9 +16,9 @@
     justify-content: space-between;
   }
   
-  .event-card h3 {
+  /* .event-card h3 {
     margin-bottom: 1px;
-  }
+  } */
   
   .event-card p {
     margin: 4px 0;
