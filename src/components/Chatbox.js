@@ -6,7 +6,7 @@ const { v4: uuidv4 } = require('uuid');
 
 const ChatBox = () => {
   const [messages, setMessages] = useState([
-    { sender: 'bot', text: 'Hey! How can I help you today? 😊' },
+    { sender: 'bot', text: 'Hey I am TribeBot! How can I help you today? 😊' },
   ]);
   const [input, setInput] = useState('');
   const [isOpen, setIsOpen] = useState(false);
